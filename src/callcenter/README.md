@@ -14,7 +14,7 @@ Imagine you have a call center with three levels of employees: respondent, manag
 * There is no auditing of number of calls attended by which responder, who made the calls etc.
 
 ## Class Diagram
-[See Class Diagrams](class-diagrams)
+![Call Center - Class Diagram](../../class-diagrams/Call%20Center%20-%20Class%20Diagram.jpeg)
 
 
 
