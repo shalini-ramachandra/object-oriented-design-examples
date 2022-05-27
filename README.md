@@ -5,7 +5,7 @@ Object Oriented Design Problems are very interesting because they give you the f
 These problems are a collection of various problem statements that are available in CTCI and across the internet
 
 1. [Call Center](src/callcenter)
-2. Jukebox
+2. [Jukebox](src/jukebox)
 3. Parking Lot
 4. Online Book Reader
 5. Jigsaw
