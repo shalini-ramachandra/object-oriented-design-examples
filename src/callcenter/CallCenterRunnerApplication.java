@@ -3,7 +3,7 @@ package callcenter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Application {
+public class CallCenterRunnerApplication {
 
     public static void main(String[] args) {
         CallDispatcher callDispatcher = new CallDispatcher(40, 10, 2);
