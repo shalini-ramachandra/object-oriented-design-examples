@@ -68,8 +68,8 @@ public class Jukebox {
         return future.isDone();
     }
 
-    public Song seeNextSong() {
-        return currentPlayList.seeNextSong();
+    public Song nextSong() {
+        return currentPlayList.nextSong();
     }
 
     public Song getCurrentSong() {
@@ -101,7 +101,7 @@ public class Jukebox {
         @Override
         public Song call() {
             while (currentPlayList != null && currentPlayList.hasMoreSongs() && !playListStopped) {
-                currentSong = currentPlayList.getNextSong();
+                currentSong = currentPlayList.removeNextSong();
                 System.out.println("Playing song : " + currentSong.getTitle() + " for the next " + currentSong.getDurationInSeconds() + " seconds!");
 
                 try {

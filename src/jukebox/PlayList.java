@@ -1,8 +1,10 @@
 package jukebox;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class PlayList {
 
@@ -16,11 +18,11 @@ public class PlayList {
         songQueue.add(song);
     }
 
-    public Song seeNextSong() {
+    public Song nextSong() {
         return songQueue.peek();
     }
 
-    public Song getNextSong() {
+    public Song removeNextSong() {
         return songQueue.remove();
     }
 
@@ -32,5 +34,7 @@ public class PlayList {
         return !songQueue.isEmpty();
     }
 
-
+    public List<Song> listSongs() {
+        return songQueue.stream().collect(Collectors.toList());
+    }
 }
