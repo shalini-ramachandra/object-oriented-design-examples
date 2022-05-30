@@ -7,7 +7,7 @@ These problems are a collection of various problem statements that are available
 1. [Call Center](src/callcenter)
 2. [Jukebox](src/jukebox)
 3. Parking Lot
-4. Online Book Reader
+4. [Online Book Reader](src/onlinebookreader)
 5. Jigsaw
 6. Chat Server
 7. Meeting Scheduler like Outlook
